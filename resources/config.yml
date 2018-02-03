@@ -1,15 +1,15 @@
-#
-#   ___        _               _  _         _
-#  / __|  _ __| |_ ___ _ __   | || |_  _ __| |
-# | (_| || (_-<  _/ _ \ '  \  | __ | || / _` |
-#  \___\_,_/__/\__\___/_|_|_| |_||_|\_,_\__,_|
+#   CustomBar Made
+#                 By
+#                     SuperKali Updated And fixed by @DakerOmar
 #
 
 #Text you will see on the server, {tps}, {load}, {players}, {max_players}, {line}, {x} {y} {z}, {coins}, {MOTD}, {faction}, {name}, {time}, {kills}, {deaths}, {ping}, {group} and & for color
 #{coins} You need to use EconomyAPI to show money!
 
 #Text to show on the server in the custom bar!
-text: "&9Custom&cHud &6Make by &bSuperKali{line}&3TPS&8:&6 {tps} &9Load&8:&4 {load}&r{line}&eXYZ&8:&2 {x} {y} {z}&r"
+text: "&4AversionPE
+&dIGN: &f{name} &6Rank: &f{group}
+&aBalance: &f{coins} &cFaction: &3{faction}"
 
 #Time that the message is updated, P.S Leave the default 5!
 time: 5
